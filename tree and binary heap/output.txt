@@ -1,0 +1,6 @@
+Aman 62 2000
+Shyam 31 4000
+Rohan 11 5000
+Ram 17 10000
+Viplab 20 20000
+Vicky 51 40000

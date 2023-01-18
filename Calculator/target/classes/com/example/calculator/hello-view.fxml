@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="215.0" prefWidth="206.0" styleClass="bodybg" stylesheets="@style.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.calculator.HelloController">
+   <children>
+      <Button layoutX="18.0" layoutY="176.0" mnemonicParsing="false" onAction="#processNumber" prefHeight="27.0" prefWidth="79.0" text="0" />
+      <Button layoutX="108.0" layoutY="176.0" mnemonicParsing="false" onAction="#processOperator" prefHeight="27.0" prefWidth="35.0" text="=" />
+      <Button layoutX="155.0" layoutY="176.0" mnemonicParsing="false" onAction="#processOperator" prefHeight="26.0" prefWidth="35.0" text="+" />
+      <Button layoutX="61.0" layoutY="141.0" mnemonicParsing="false" onAction="#processNumber" prefHeight="26.0" prefWidth="35.0" text="2" />
+      <Button layoutX="108.0" layoutY="141.0" mnemonicParsing="false" onAction="#processNumber" prefHeight="26.0" prefWidth="35.0" text="3" />
+      <Button layoutX="155.0" layoutY="141.0" mnemonicParsing="false" onAction="#processOperator" prefHeight="26.0" prefWidth="35.0" text="-" />
+      <Button layoutX="18.0" layoutY="142.0" mnemonicParsing="false" onAction="#processNumber" prefHeight="26.0" prefWidth="35.0" text="1" />
+      <Button layoutX="61.0" layoutY="104.0" mnemonicParsing="false" onAction="#processNumber" prefHeight="26.0" prefWidth="35.0" text="5" />
+      <Button layoutX="108.0" layoutY="104.0" mnemonicParsing="false" onAction="#processNumber" prefHeight="26.0" prefWidth="35.0" text="6" />
+      <Button layoutX="155.0" layoutY="104.0" mnemonicParsing="false" onAction="#processOperator" prefHeight="26.0" prefWidth="35.0" text="*" />
+      <Button layoutX="18.0" layoutY="105.0" mnemonicParsing="false" onAction="#processNumber" prefHeight="26.0" prefWidth="35.0" text="4" />
+      <Button layoutX="61.0" layoutY="66.0" mnemonicParsing="false" onAction="#processNumber" prefHeight="26.0" prefWidth="35.0" text="8" />
+      <Button layoutX="108.0" layoutY="66.0" mnemonicParsing="false" onAction="#processNumber" prefHeight="26.0" prefWidth="35.0" text="9" />
+      <Button layoutX="155.0" layoutY="66.0" mnemonicParsing="false" onAction="#processOperator" prefHeight="26.0" prefWidth="35.0" text="/" />
+      <Button layoutX="18.0" layoutY="67.0" mnemonicParsing="false" onAction="#processNumber" prefHeight="26.0" prefWidth="35.0" text="7" />
+      <Label fx:id="result" alignment="CENTER" layoutX="9.0" layoutY="14.0" prefHeight="46.0" prefWidth="175.0">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
